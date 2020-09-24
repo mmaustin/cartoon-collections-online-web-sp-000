@@ -5,9 +5,16 @@ def roll_call_dwarves(dwarves)
 end
 roll_call_dwarves(["Dopey", "Grumpy", "Bashful"])
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(veggies)
+  capital = []
+  veggies.each do |veggie|
+    #print power.capitalize + "!"
+    capital << veggie.capitalize + "!"
+  end
+  capital
 end
+summon_captain_planet(["carrot", "cucumber", "pepper"])
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
