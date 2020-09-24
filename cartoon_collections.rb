@@ -21,7 +21,15 @@ def long_planeteer_calls(calls)
 end
 long_planeteer_calls(["axe", "earth", "wind", "fire"])
 
+def find_the_cheese(array)
+  array.find do |item|
+    print item == "cheddar"
+  end
+end
+find_the_cheese(["sock", "cheddar", "hats"])
+=begin
 def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+=end
